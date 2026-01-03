@@ -229,8 +229,11 @@ def topological_sort_alist(a_list : dict) -> tuple:
 def longest_path_dag_alist(a_list : dict):
     return topological_sort_alist(a_list)[0]
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 60748fd83b0a65733bdd9e22af784fd6d4c1dff5
 if __name__ == '__main__':
     
     assert np.array_equal(
